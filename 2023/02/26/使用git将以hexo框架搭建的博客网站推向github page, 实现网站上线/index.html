@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://picx.zhimg.com/v2-f4dd5d9aec9aca99257501dc270ddcdd_r.jpg?source=1940ef5c">
 <meta property="article:published_time" content="2023-02-26T13:00:04.422Z">
-<meta property="article:modified_time" content="2023-03-04T10:52:31.574Z">
+<meta property="article:modified_time" content="2023-03-05T10:11:59.850Z">
 <meta property="article:author" content="wcdd">
 <meta property="article:tag" content="我的第一个博客">
 <meta property="article:tag" content="git">
@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-03-04 18:52:31'
+  postUpdate: '2023-03-05 18:11:59'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -164,7 +164,7 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://picx.zhimg.com/v2-f4dd5d9aec9aca99257501dc270ddcdd_r.jpg?source=1940ef5c" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">26</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 顺序</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 索引</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 法门</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 纪念碑</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pic1.zhimg.com/v2-b77284f71b96993c3d6d60bb13cae7f2_r.jpg?source=1940ef5c')"><nav id="nav"><span id="blog-info"><a href="/" title="wcdd的藏经阁"><span class="site-name">wcdd的藏经阁</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 顺序</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 索引</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 法门</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 纪念碑</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">使用git将以hexo框架搭建的博客网站推向github page, 实现网站上线</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-26T13:00:04.422Z" title="发表于 2023-02-26 21:00:04">2023-02-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-04T10:52:31.574Z" title="更新于 2023-03-04 18:52:31">2023-03-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/">自创神功</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/">网站搭建</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="使用git将以hexo框架搭建的博客网站推向github page, 实现网站上线"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>nets: [[网站搭建]]</p>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://picx.zhimg.com/v2-f4dd5d9aec9aca99257501dc270ddcdd_r.jpg?source=1940ef5c" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">26</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 顺序</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 索引</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 法门</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 纪念碑</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pic1.zhimg.com/v2-b77284f71b96993c3d6d60bb13cae7f2_r.jpg?source=1940ef5c')"><nav id="nav"><span id="blog-info"><a href="/" title="wcdd的藏经阁"><span class="site-name">wcdd的藏经阁</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 顺序</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 索引</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 法门</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 纪念碑</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">使用git将以hexo框架搭建的博客网站推向github page, 实现网站上线</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-26T13:00:04.422Z" title="发表于 2023-02-26 21:00:04">2023-02-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-05T10:11:59.850Z" title="更新于 2023-03-05 18:11:59">2023-03-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/">自创神功</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%87%AA%E5%88%9B%E7%A5%9E%E5%8A%9F/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/">网站搭建</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="使用git将以hexo框架搭建的博客网站推向github page, 实现网站上线"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>nets: [[网站搭建]]</p>
 <h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="下载并安装node-js"><a href="#下载并安装node-js" class="headerlink" title="下载并安装node.js"></a>下载并安装node.js</h3><ul>
 <li><a target="_blank" rel="noopener" href="http://nodejs.org/">node.js</a>————主要使用其npm进行安装hexo</li>
 </ul>
@@ -174,18 +174,18 @@
 <h3 id="下载检查版本"><a href="#下载检查版本" class="headerlink" title="下载检查版本"></a>下载检查版本</h3><ol>
 <li>打开cmd</li>
 <li>输入以下指令<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
-<li>如下图所示，显示版本号代表安装成功<br><img src="/../images/Pasted%20image%2020230226211420.png"></li>
+<li>如下图所示，显示版本号代表安装成功<br><img src="/../../images/Pasted%20image%2020230226211420.png"></li>
 </ol>
 <h2 id="安装并初始化hexo文件"><a href="#安装并初始化hexo文件" class="headerlink" title="安装并初始化hexo文件"></a>安装并初始化hexo文件</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ol>
 <li>输入命令，完成hexo安装<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cil -g</span><br></pre></td></tr></table></figure></li>
 <li>只要没有出现ERR提示或其他明显的错误提示，就代表安装好了（warning基本不用管它，以后也是这样）</li>
 <li>在cmd输入命令，出现版本号提示代表安装完成<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<img src="/../images/Pasted%20image%2020230226212501.png"></li>
+<img src="/../../images/Pasted%20image%2020230226212501.png"></li>
 </ol>
 <h3 id="初始化文件夹"><a href="#初始化文件夹" class="headerlink" title="初始化文件夹"></a>初始化文件夹</h3><ol>
 <li><p>选择或者创建任意空文件夹作为博客文件的储存位置，比如D:&#x2F;blog&#x2F;</p>
 </li>
-<li><p>使cmd跳转到blog文件夹下，比如在文件管理器中访问blog文件夹，在地址栏输入cmd，点击回车<br><img src="/../images/Pasted%20image%2020230226213140.png"></p>
+<li><p>使cmd跳转到blog文件夹下，比如在文件管理器中访问blog文件夹，在地址栏输入cmd，点击回车<br><img src="/../../images/Pasted%20image%2020230226213140.png"></p>
 </li>
 <li><p>输入命令，等待初始化完成</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init </span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
@@ -199,17 +199,17 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <ol>
 <li>等待其运行完成后，会看到https&#x2F;&#x2F;localhost:4000&#x2F;，将其输入到本地的浏览器中，就可以看到网站的样式。</li>
-<li>看完之后一定记得按 ctrl+C，停止渲染<br><img src="/../images/Pasted%20image%2020230226214913.png"><br><img src="/../images/Pasted%20image%2020230226221300.png"><br>(网站效果)</li>
+<li>看完之后一定记得按 ctrl+C，停止渲染<br><img src="/../../images/Pasted%20image%2020230226214913.png"><br><img src="/../../images/Pasted%20image%2020230226221300.png"><br>(网站效果)</li>
 </ol>
 </li>
 </ol>
 <h2 id="将博客发布到github上"><a href="#将博客发布到github上" class="headerlink" title="将博客发布到github上"></a>将博客发布到github上</h2><h3 id="注册github账号并建立仓库"><a href="#注册github账号并建立仓库" class="headerlink" title="注册github账号并建立仓库"></a>注册github账号并建立仓库</h3><p>上<a target="_blank" rel="noopener" href="https://github.com/">github</a>注册账号就行了，记住自己的用户名、邮箱和密码就行，我就不多说了。</p>
 <h4 id="建立仓库"><a href="#建立仓库" class="headerlink" title="建立仓库"></a>建立仓库</h4><ol>
-<li>注册并登录上github后，不出意外的话会进入个人主页，点击右上角的绿色按钮就是建立新仓库<br><img src="/../images/Pasted%20image%2020230226220713.png"></li>
-<li>在仓库名一栏填写username.github.io，uername是你的GitHub用户名，其他不用管，直接建立仓库即可。<br><img src="/../images/Pasted%20image%2020230226220856.png"></li>
+<li>注册并登录上github后，不出意外的话会进入个人主页，点击右上角的绿色按钮就是建立新仓库<br><img src="/../../images/Pasted%20image%2020230226220713.png"></li>
+<li>在仓库名一栏填写username.github.io，uername是你的GitHub用户名，其他不用管，直接建立仓库即可。<br><img src="/../../images/Pasted%20image%2020230226220856.png"></li>
 </ol>
 <h3 id="配置博客文件"><a href="#配置博客文件" class="headerlink" title="配置博客文件"></a>配置博客文件</h3><ol>
-<li>打开_config.yml（实在没有编辑器用记事本也行，但我推荐你最好下个VScode），来到最底下找到这里。<br><img src="/../images/Pasted%20image%2020230226215925.png"></li>
+<li>打开_config.yml（实在没有编辑器用记事本也行，但我推荐你最好下个VScode），来到最底下找到这里。<br><img src="/../../images/Pasted%20image%2020230226215925.png"></li>
 <li>用以下字段替代deploy一项，注意缩进是<strong>两个空格</strong>！！！<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&#x27;https://github.com/username/username.github.io.git&#x27;</span></span><br><span class="line">  <span class="attr">barnch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></li>
 </ol>
 <h3 id="对git进行设置"><a href="#对git进行设置" class="headerlink" title="对git进行设置"></a>对git进行设置</h3><ul>
@@ -225,14 +225,14 @@
 <li>如果仍然报错同样的问题，可考虑输入命令，关闭ssl认证（不推荐）<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure></li>
 </ul>
 <ol start="3">
-<li>登录<a target="_blank" rel="noopener" href="https://username.github.io/%EF%BC%8C%E7%9C%8B%E5%88%B0%E4%BB%A5%E4%B8%8B%E9%A1%B5%E9%9D%A2%E5%B0%B1%E4%BB%A3%E8%A1%A8%E6%88%90%E5%8A%9F">https://username.github.io/，看到以下页面就代表成功</a><br><img src="/../images/Pasted%20image%2020230226221300.png"></li>
+<li>登录<a target="_blank" rel="noopener" href="https://username.github.io/%EF%BC%8C%E7%9C%8B%E5%88%B0%E4%BB%A5%E4%B8%8B%E9%A1%B5%E9%9D%A2%E5%B0%B1%E4%BB%A3%E8%A1%A8%E6%88%90%E5%8A%9F">https://username.github.io/，看到以下页面就代表成功</a><br><img src="/../../images/Pasted%20image%2020230226221300.png"></li>
 </ol>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
 <li><p>输入命令，即可创建.md文件，layout指布局可以填draft、page或post，title是文章标题。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></li>
 <li><p>打开一款md编辑器（我用的obsidian），即可使用md语法进行内容编辑。</p>
 </li>
-<li><p>或者直接在_post文件夹中新建md文件进行编辑，不过每个md文件开头一定要有yml头才能发布，缩进也是两空格。<br><img src="/../images/Pasted%20image%2020230226223122.png"></p>
+<li><p>或者直接在_post文件夹中新建md文件进行编辑，不过每个md文件开头一定要有yml头才能发布，缩进也是两空格。<br><img src="/../../images/Pasted%20image%2020230226223122.png"></p>
 </li>
 <li><p>完成编辑后使用hexo三连进行博文的发布</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
